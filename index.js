@@ -23,10 +23,7 @@ client.once("ready", () =>{
   // Send the message, mentioning the member
   channel.send(`Welcome to the server,  Make sure to head to #rules and join our group!`);
 });
-   client.user.setActivity("with depression", {
-  type: "STREAMING",
-  url: "https://www.twitch.tv/monstercat"
-});
+
  });
 
 client.on('message', message => {
