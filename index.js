@@ -107,16 +107,16 @@ channel.send(exampleEmbed).then(sentMessage => {
     title: "Lufthansa Flights",
     description: "Here you will see Lufthansas upcoming flights and their status. If they are blanked, there are no scheduled flights.",
     fields: [{
+        name: "FLIGHT | 2:00 PST",
+        value: "2:00 PST flight at SERIFOS INTL. AIRCRAFT: A320neo"
+      },
+      {
         name: "No flights scheduled.",
         value: "No flights scheduled."
       },
       {
         name: "No flights scheduled.",
-        value: "e"
-      },
-      {
-        name: "No flights scheduled.",
-        value: "ee"
+        value: "No flights scheduled."
       }
     ],
     timestamp: new Date(),
