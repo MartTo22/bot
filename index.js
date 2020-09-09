@@ -1,7 +1,6 @@
 const fs = require('fs');
 const Discord = require('discord.js');
 const keepAlive = require('./server');
-const token = 'NzMwNTUzNzU0NDUzMDE2Njc4.XwZLNA.fuXEfgrkcAvukm5hXaIJCtbcy1I'; // The token
 const  ownerID = '563881575750828032';
 const prefix = ';'; // The prefix that bot listens to when it listens for commands
 const client = new Discord.Client();
